@@ -85,12 +85,6 @@ public class Buoi3 {
     * }
     * // để ý sẽ thấy i luôn <= j
     *
-    *
-    * */
-
-    /*Thuật toán đặt cờ hiệu
-    *
-    *
     * */
 
     public static void main(String[] args) {
@@ -463,24 +457,27 @@ public class Buoi3 {
 
     static void bai033(int n, double A) {
         for ( int i = 1 ; i <= n ; i++ ) {
-            A += 2;
-            A = Math.sqrt(A);
+//            A += 2;
+//            A = Math.sqrt(A);
+            A = Math.sqrt(A+2);
         }
         System.out.println("Bài 33: S(n)= √(2 + √(2 + ⋯ √(2 + √2)...)) với n căn = "+A);
     }
 
     static void bai034(int n, double A) {
         for ( int i = 1 ; i <= n ; i++ ) {
-            A += i;
-            A = Math.sqrt(A);
+//            A += i;
+//            A = Math.sqrt(A);
+            A = Math.sqrt(i+A);
         }
         System.out.println("Bài 34: S(n)= √(n + √(n-1 + ⋯ √(2 + √1)...)) với n căn = "+A);
     }
 
     static void bai035(int n, double A) {
         for ( int i = n ; i >= 1 ; i-- ) {
-            A += i;
-            A = Math.sqrt(A);
+//            A += i;
+//            A = Math.sqrt(A);
+            A = Math.sqrt(i+A);
         }
         System.out.println("Bài 35: S(n)= √(1 + √(2 + ⋯ √(n-1 + √n)...)) với n căn = "+A);
     }
@@ -491,8 +488,9 @@ public class Buoi3 {
             for ( int j = 1; j <= i ; j++ ) {
                 m *= j;
             }
-            A += m;
-            A = Math.sqrt(A);
+//            A += m;
+//            A = Math.sqrt(A);
+            A = Math.sqrt(m+A);
         }
         System.out.println("Bài 36: S(n)= √(n! + √( (n-1)! + ⋯ √(2! + √1!)...)) với n căn = "+A);
     }
@@ -502,6 +500,7 @@ public class Buoi3 {
             double m = (double) 1/i;
             A += i;
             A = Math.pow(A, m );
+//            A = Math.pow(A+i, 1.0/i);
         }
         System.out.println("Bài 37: S(n) = CanBacN(N + CanBacN–1(N–1 + … + CanBac3(3 + CanBac2(2))) với n-1 căn = "+A);
     }
@@ -617,10 +616,14 @@ public class Buoi3 {
 
     static void bai050(int n) {
         System.out.print("Bài 50: chữ số đảo ngược của n là: ");
-        while ( n > 0 ) {
+        for ( int i = 0 ; n > 0 ; i++ ) {
             System.out.print(n%10);
             n /= 10;
         }
+//        while ( n > 0 ) {
+//            System.out.print(n%10);
+//            n /= 10;
+//        }
     }
 
     static void bai051(int n) {
@@ -814,12 +817,8 @@ public class Buoi3 {
                     System.out.println("Vô số nghiệm");
                 else System.out.println("Vô nghiệm");
             } else {
-                float n = (float) -c/b;
-                if ( n == 0 ) System.out.println("Có 1 nghiệm là 0");
-                else if ( n > 0 ) {
-                    n = (float) Math.sqrt(n);
-                    System.out.println("Có 2 nghiệm: "+n+" , -"+n);
-                } else System.out.println("Vô nghiệm");
+                if ( c==0 ) System.out.println("Có 1 nghiệm là 0");
+                else System.out.println("Vô nghiệm");
             }
         } else {
             int delta = b*b - 4*a*c;
