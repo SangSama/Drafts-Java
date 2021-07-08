@@ -710,7 +710,7 @@ public class Buoi3 {
         int m = 0;
         int l = n;
         for ( int i = 0 ; l > 0 ; i++ ) {
-            m += (l%10)*Math.pow(10,i);
+            m = (m*10 + l%10);
             l /= 10;
         }
         System.out.println(m);
@@ -771,7 +771,6 @@ public class Buoi3 {
                 }
             }
         }
-
     }
 
     static void bai064(int a, int b) {

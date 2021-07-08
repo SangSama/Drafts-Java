@@ -24,53 +24,61 @@ public class Buoi4 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Nhập chiều cao a: ");
-        int a = sc.nextInt();
 
-        // Bài in ra tam giác rỗng
-        System.out.println("Tam giác rỗng");
-        for ( int i = 1 ; i <= a ; i++ ) {
-            for ( int j = 1 ; j <= i ; j++ ) {
-                if ( j == 1 || i == a || j == i ) {
-                    System.out.print("*");
-                } else System.out.print(" ");
-            }
-            System.out.println();
-        }
+//        System.out.print("Nhập chiều cao a: ");
+//        int a = sc.nextInt();
+//
+//        // Bài in ra tam giác rỗng
+//        System.out.println("Tam giác rỗng");
+//        for ( int i = 1 ; i <= a ; i++ ) {
+//            for ( int j = 1 ; j <= i ; j++ ) {
+//                if ( j == 1 || i == a || j == i ) {
+//                    System.out.print("*");
+//                } else System.out.print(" ");
+//            }
+//            System.out.println();
+//        }
+//
+//        // Bài tam giác cân nhưng không vuông
+//        System.out.println("Tam giác cân nhưng không vuông");
+//        for ( int i = 1 ; i <= a ; i++ ) {
+//            for ( int j = 1 ; j <= a + i - 1 ; j++ ) {
+//                if ( j >= a - i + 1 ) System.out.print("*");
+//                else System.out.print(" ");
+//            }
+//            System.out.println();
+//        }
+//
+//        // Bài tam giác rỗng, cân nhưng không vuông
+//        System.out.println("Tam giác rỗng, cân nhưng không vuông");
+//        for ( int i = 1 ; i <= a ; i++ ) {
+//            for ( int j = 1 ; j <= a + i - 1 ; j++ ) {
+//                if ( i == a || j == a-i+1 || j == a+i-1 ) System.out.print("*");
+//                else System.out.print(" ");
+//            }
+//            System.out.println();
+//        }
 
-        // Bài tam giác cân nhưng không vuông
-        System.out.println("Tam giác cân nhưng không vuông");
-        for ( int i = 1 ; i <= a ; i++ ) {
-            for ( int j = 1 ; j <= a + i - 1 ; j++ ) {
-                if ( j >= a - i + 1 ) System.out.print("*");
-                else System.out.print(" ");
-            }
-            System.out.println();
-        }
-
-        // Bài tam giác rỗng, cân nhưng không vuông
-        System.out.println("Tam giác rỗng, cân nhưng không vuông");
-        for ( int i = 1 ; i <= a ; i++ ) {
-            for ( int j = 1 ; j <= a + i - 1 ; j++ ) {
-                if ( i == a || j == a-i+1 || j == a+i-1 ) System.out.print("*");
-                else System.out.print(" ");
-            }
-            System.out.println();
-        }
 
         // HOMEWORK b72-b76:
-        System.out.print("Nhập n = ");
-        int n = sc.nextInt();
-        System.out.print("Nhập x = ");
-        int x = sc.nextInt();
-        bai072(n, x);
-        bai073(n, x);
-        bai074(n, x);
+//        System.out.print("Nhập n = ");
+//        int n = sc.nextInt();
+//        System.out.print("Nhập x = ");
+//        int x = sc.nextInt();
+//        bai072(n, x);
+//        bai073(n, x);
+//        bai074(n, x);
+//
+//        System.out.print("Nhập y = ");
+//        int y = sc.nextInt();
+//        bai075(y);
+//        bai076(y);
 
-        System.out.print("Nhập y = ");
-        int y = sc.nextInt();
-        bai075(y);
-        bai076(y);
+
+        // HOMEWORK chương 3 -  các cấu trúc điều khiển
+
+
+
     }
 
     static void bai072(int n, int x) {
@@ -131,4 +139,10 @@ public class Buoi4 {
         if ( check ) System.out.println("Bài 76: có dạng 3^k");
         else System.out.println("Bài 76: không có dạng 3^k");
     }
+
+    // HOMEWORK chương 3 -  các cấu trúc điều khiển
+
+
+
+
 }
