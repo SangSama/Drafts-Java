@@ -3,6 +3,7 @@ package buoi5;
 import java.util.Scanner;
 
 public class Buoi5 {
+
     /*
     * ***CONTENT***
     *
@@ -48,6 +49,7 @@ public class Buoi5 {
     * Cách 2: kiểu_dữ_liệu[] tên_mảng = new kiểu_dữ_liệu[số lượng phần tử]
     * => Mảng đánh dấu vị trí từ 0 đến n-1
     * */
+
 
     // biến toàn cục
     public static int x;
@@ -95,6 +97,7 @@ public class Buoi5 {
         float[] arrayFloat = {30, 2006, 56, 3, 10, 7, 2400, 19, 49};
         float[] arrFloat = {-3, -7, -1, 10, 42, 0, -18, 52, -32};
         float[] arrPhanBiet = { 2, 61, 95, 43, 18, 28, 10, 21, 13 };
+
 //        bai122(arrayFloat);
 //        bai123(arrayInt);
 //        bai124();
@@ -202,6 +205,7 @@ public class Buoi5 {
         return a + b;
     }
 
+
     // MẢNG
     public static void input(int[] a) {
         Scanner scanner = new Scanner(System.in);
@@ -238,6 +242,7 @@ public class Buoi5 {
             System.out.println("a["+i+"] = "+a[i]);
         }
     }
+
 
     // ***** HOMEWORK *****
 
@@ -338,6 +343,7 @@ public class Buoi5 {
         return count;
     }
 
+
     // MẢNG - ARRAY
     public static void bai122(float[] arr) {
         float max = arr[0];
@@ -435,6 +441,7 @@ public class Buoi5 {
         output(a);
     }
 
+
     // KỸ THUẬT NHẬP XUẤT MẢNG
     public static void bai128() {
         Scanner scanner = new Scanner(System.in);
@@ -471,6 +478,7 @@ public class Buoi5 {
         System.out.print("Bài 133: các giá trị âm: ");
         for (int i = 0 ; i < a.length ; i++) if ( a[i] < 0 ) System.out.print(a[i]+"  ");
     }
+
 
     // KỸ THUẬT ĐẶT LÍNH CANH CÁC BÀI TẬP CƠ BẢN
     public static void bai134(float[] a) {
@@ -567,6 +575,7 @@ public class Buoi5 {
         }
         System.out.println("Bài 141: vị trí của giá trị dương nhỏ nhất: "+vitri);
     }
+
 
     // CÁC BÀI TẬP LUYỆN TẬP
     public static void bai142(float[] a) {
@@ -697,6 +706,7 @@ public class Buoi5 {
         }
         System.out.println("Bài 154: Vị trí giá trị âm lớn nhất = "+vitri);
     }
+
 
     // BÀI TẬP LUYỆN TẬP TƯ DUY
     public static void bai155() {

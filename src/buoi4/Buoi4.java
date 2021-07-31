@@ -12,8 +12,6 @@ public class Buoi4 {
     * while, do...while
     * VD:
     *
-    *
-    *
     * */
 
     /* Thuật toán đặt cờ hiệu

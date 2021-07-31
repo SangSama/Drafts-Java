@@ -388,9 +388,10 @@ public class Buoi6 {
 //        tongTatCaMangCon(a);
 
 // --------------------------------------------------------------------------------------------------------------------
-        int[] arrayInt = { 1, 6, 9, -3, 10, 13, 4, 3, -2 };
+        int[] arrayInt = { 2, 6, 9, -8, 10, 13, 8, 58, -52, 10, 4 };
 
-        float[] arrayFloat = { 8, -1, -10, 43, 5, -5, 0 };
+        float[] arrayFloat = { 8, -1, -10, 20, 5, -5, 20, 20 };
+        float[] arrFloatPT = { 1, 2, 5, 3, 8, 7, 12, 6, 9, 4, 10, 11};
 
 
         // CÁC BÀI TẬP TÌM KIẾM VÀ LIỆT KÊ
@@ -398,12 +399,62 @@ public class Buoi6 {
 //        bai177(arrayFloat);
 //        bai178(arrayInt);
 //        bai179(arrayInt);
+//        bai180(arrayInt);
+//        bai181(arrayInt);
+//        bai182(arrayFloat);
+//        bai183(arrayFloat);
+//        bai184(arrayInt);
+//        bai185(arrayInt);
+//        bai186(arrayFloat);
+//        bai187(arrayFloat);
+//        bai188(arrayInt);
+//        bai189(arrayInt);
+//        bai190(arrayInt);
+//        bai191(arrayFloat);
+//        bai192(arrayInt);
+//        bai193(arrayInt);
+//        bai194(arrayInt);
+//        bai195(arrFloatPT);
+//        bai196(arrayFloat);
+//        bai197();
+//        bai198();
+//        bai199();
 
 
         // KỸ THUẬT TÍNH TỔNG
+//        bai200(arrayInt);
+//        bai201(arrayFloat);
+//        bai202(arrayInt);
+//        bai203(arrayInt);
+//        bai204(arrayFloat);
+//        bai205(arrayFloat);
+//        bai206(arrayFloat);
+//        bai207(arrayFloat);
+//        bai208(arrayInt);
+//        bai209(arrayInt);
+//        bai210(arrayInt);
+//        bai211(arrayInt);
+//        bai212(arrayFloat);
+//        bai213(arrayFloat);
+//        bai214(arrayFloat);
+//        bai215(arrayInt);
 
 
         // KỸ THUẬT ĐẾM
+//        bai216(arrayInt);
+//        bai217(arrayInt);
+//        bai218(arrayInt);
+//        bai219(arrayFloat);
+//        bai220(arrayInt);
+//        bai221(arrayInt);
+//        bai222(arrayInt);
+//        bai223(arrayInt);
+//        bai224(arrayInt);
+//        bai225(arrayFloat);
+//        bai226(arrayInt);
+//        bai227(arrayInt);
+//        bai228(arrayInt);
+//        bai229(arrayInt);
 
 
         // KỸ THUẬT ĐẶT CỜ HIỆU
@@ -483,13 +534,662 @@ public class Buoi6 {
         }
     }
 
-    public static void bai180() {
+    public static void bai180(int a[]) {
+        System.out.print("Bài 180: Các giá trị thỏa mãn : ");
+        for (int i = 1 ; i < a.length-1 ; i++) {
+            int truoc = Math.abs(a[i-1]);
+            int sau = Math.abs(a[i+1]);
+            if ( a[i] <= truoc || a[i] >= sau ) continue;
+            System.out.print( a[i] + "  ");
+        }
+    }
+
+    public static void bai181(int a[]) {
+        System.out.print("Bài 181: Gía trị cần tìm: ");
+        if ( checkSoChan(a[0]) && checkSoChan(a[1]) ) System.out.print( a[0] + "  ");
+        for (int i = 1 ; i < a.length-1 ; i++) {
+            if ( checkSoChan(a[i]) ) {
+                if ( checkSoChan(a[i-1]) || checkSoChan(a[i+1]) ) {
+                    System.out.print( a[i] + "  ");
+                }
+            }
+        }
+        if ( checkSoChan(a[a.length-1]) && checkSoChan(a[a.length-2]) ) System.out.print( a[a.length-1] + "  ");
+    }
+    public static boolean checkSoChan(int x) {
+        if ( x % 2 == 0 ) return true;
+        else return false;
+    }
+
+    public static void bai182(float a[]) {
+        System.out.print("Bài 181: Gía trị cần tìm: ");
+        if ( a[0]*a[1]<0 ) System.out.print( a[0] + "  ");
+        for (int i = 1 ; i < a.length-1 ; i++) {
+            if ( a[i]*a[i-1]<0 || a[i]*a[i+1]<0 ) {
+                System.out.print( a[i] + "  ");
+            }
+        }
+        if ( a[a.length-1]*a[a.length-2]<0 ) System.out.print( a[a.length-1] + "  ");
+    }
+
+    public static void bai183(float a[]) {
+        System.out.print("Bài 183: các vị trí của giá trị lớn nhất:  ");
+        for (int i = viTriGiaTriLonNhat(a) ; i < a.length ; i++) {
+            if ( a[i] == a[viTriGiaTriLonNhat(a)] ) System.out.print(i+" ");
+        }
+    }
+    public static int viTriGiaTriLonNhat(float a[]) {
+        float max = a[0];
+        int viTri = -1;
+        for (int i = 1 ; i < a.length ; i++) {
+            if ( max < a[i] ) {
+                max = a[i];
+                viTri = i;
+            }
+        }
+        return viTri;
+    }
+
+    public static void bai184(int a[]) {
+        System.out.print("Bài 184: Các vị trí số nguyên tố:  ");
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkSNT(i) ) System.out.print(i + "  ");
+        }
+    }
+    public static boolean checkSNT(int x) {
+        boolean check = true;
+        for (int i = 2 ; i <= Math.sqrt(x) ; i++) {
+            if ( x%i == 0 ) {
+                check = false;
+                break;
+            }
+        }
+        return check;
+    }
+
+    public static void bai185(int a[]) {
+        System.out.print("Bài 185: Các vị trí số chính phương:  ");
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkSCP(i) ) System.out.print(i + "  ");
+        }
+    }
+    public static boolean checkSCP(int x) {
+        boolean check = false;
+        int test = (int) Math.sqrt(x);
+        if ( test*test == x ) check = true;
+        return check;
+    }
+
+    public static void bai186(float a[]) {
+        int viTri = viTriGiaTriAmDauTien(a);
+        if ( viTri==-1 ) System.out.println("Bài 186: Không có giá trị âm");
+        else {
+            System.out.print("Bài 186: Vị trí giá trị cần tìm:  ");
+            for (int i = viTri ; i < a.length ; i++) {
+                if ( a[i] == a[viTri] ) System.out.print( i + " ");
+            }
+        }
+    }
+    public static int viTriGiaTriAmDauTien(float a[]) {
+        int viTri = -1;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i]<0 ) {
+                viTri = i;
+                break;
+            };
+        }
+        return viTri;
+    }
+
+    public static void bai187(float a[]) {
+        int viTri = viTriGTDNN(a);
+        if ( viTri==-1 ) System.out.println("Bài 187: Không có giá trị dương");
+        else {
+            System.out.print("Bài 187: Vị trí giá trị cần tìm:  ");
+            for (int i = viTri ; i < a.length ; i++) {
+                if ( a[i] == a[viTri] ) System.out.print( i + " ");
+            }
+        }
+    }
+    public static int viTriGTDNN(float a[]) {
+        int viTri = -1;
+        float min = -1;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i]>0 ) {
+                if ( min==-1 || min>a[i] ) {
+                    min = a[i];
+                    viTri=i;
+                }
+            };
+        }
+        return viTri;
+    }
+
+    public static void bai188(int a[]) {
+        int viTri = viTriChanLN(a);
+        if ( viTri==-1 ) System.out.println("Bài 188: Không có giá trị chẵn");
+        else {
+            System.out.print("Bài 188: Vị trí giá trị cần tìm:  ");
+            for (int i = viTri ; i < a.length ; i++) {
+                if ( a[i] == a[viTri] ) System.out.print( i + " ");
+            }
+        }
+    }
+    public static int viTriChanLN(int a[]) {
+        int viTri = -1;
+        int max = -1;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i]%2==0 ) {
+                if ( max==-1 || max<a[i] ) {
+                    max = a[i];
+                    viTri=i;
+                }
+            };
+        }
+        return viTri;
+    }
+
+    public static void bai189(int a[]) {
+        System.out.print("Bài 189: Gía trị chữ số đầu lẻ:  ");
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkDauLe(a[i]) ) System.out.print( a[i] + " ");
+        }
+    }
+    public static boolean checkDauLe(int x) {
+        int test = Math.abs(x);
+        boolean check = false;
+        while ( test > 0 ) {
+            if ( (test%10)%2!=0 ) check = true;
+            else check = false;
+            test /= 10;
+        }
+        return check;
+    }
+
+    public static void bai190(int a[]) {
+        System.out.print("Bài 190: Gía trị chữ số toàn lẻ: ");
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkToanLe(a[i]) ) System.out.print( a[i] + "  ");
+        }
+    }
+    public static boolean checkToanLe(int x) {
+        int test = Math.abs(x);
+        boolean check = true;
+        while ( test > 0 ) {
+            if ( (test%10)%2==0 ) {
+                check = false;
+                break;
+            }
+            test /= 10;
+        }
+        return check;
+    }
+
+    public static void bai191(float a[]) {
+        System.out.println("Bài 191: Các giá trị cần tìm:  ");
+        if ( a[0] > a[1] ) {
+            System.out.print(a[0] + "  ");
+            phanTuCucDai(a, 2);
+        }
+        else {
+            phanTuCucDai(a, 1);
+        }
+    }
+    public static void phanTuCucDai(float a[], int x) {
+        for (int i = x ; i < a.length-1 ; i++) {
+            if ( a[i]<=a[i-1] || a[i]<=a[i+1] ) continue;
+            System.out.print(a[i] + "  ");
+            i++;
+        }
+        if ( a[a.length-1] > a[a.length-2] ) System.out.print(a[a.length-1] + "  ");
+    }
+
+    public static void bai192(int a[]) {
+        System.out.print("Bài 192: Gía trị chữ số đầu chẵn:  ");
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkDauChan(a[i]) ) System.out.print( a[i] + " ");
+        }
+    }
+    public static boolean checkDauChan(int x) {
+        int test = Math.abs(x);
+        boolean check = false;
+        while ( test > 0 ) {
+            if ( (test%10)%2==0 ) check = true;
+            else check = false;
+            test /= 10;
+        }
+        return check;
+    }
+
+    public static void bai193(int a[]) {
+        System.out.println("Bài 193: ");
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkDang3muk(a[i]) ) a[i] = 0;
+        }
+        output(a);
+    }
+    public static boolean checkDang3muk(int x) {
+        boolean check = false;
+        for ( int i = 1 ; i <= x ; i++ ) {
+            if ( x == Math.pow(3, i)) {
+                check = true;
+                break;
+            }
+            if ( x < Math.pow(3, i)) break;
+        }
+        return check;
+    }
+    public static void output(int[] a) {
+        for (int i = 0; i < a.length ; i++) {
+            System.out.print(a[i]+"  ");
+        }
+    }
+
+    public static void bai194(int a[]) {
+        System.out.print("Bài 194: cặp giá trị cần tìm:  ");
+        for (int i = 0 ; i < a.length-1 ; i++) {
+            if ( Math.abs(a[i]-a[i+1]) == giaTriCapGanNhat(a) ) {
+                System.out.print(" ("+a[i]+","+a[i+1]+")  ");
+            }
+        }
+    }
+    public static int giaTriCapGanNhat(int a[]) {
+        int min = Math.abs(a[0]-a[1]);
+        for (int i = 1; i < a.length-1 ; i++) {
+            if ( Math.abs(a[i]-a[i+1]) < min ) {
+                min = Math.abs(a[i]-a[i+1]);
+            }
+        }
+        return min;
+    }
+
+    public static void bai195(float a[]) {
+        System.out.print("Bài 195: các bộ 3 giá trị thỏa mãn: ");
+        for (int i = 0 ; i < a.length ; i++) {
+            for (int j = 0 ; j < a.length ; j++) {
+                if ( j == i ) continue;
+                for (int k = 0 ; k < a.length ; k++) {
+                    if ( k == i || k == j ) continue;
+                    if ( a[i] == a[j] + a[k] ) {
+                        System.out.print( " ("+a[i]+","+a[j]+","+a[k]+")  ");
+                    }
+                }
+            }
+        }
+    }
+
+    public static void bai196(float a[]) {
+        System.out.print("Bài 196: Các số âm:  ");
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i] < 0 ) System.out.print( a[i] + "  ");
+        }
+    }
+
+    public static void bai197() {
+        // giống bài 189
+    }
+
+    public static void bai198() {
+        // giống bài 187
+    }
+
+    public static void bai199() {
+        // giống bài 184
+    }
+
+
+    // KỸ THUẬT TÍNH TỔNG
+    public static void bai200(int a[]) {
+        int sum = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            sum += a[i];
+        }
+        System.out.println("Bài 200: Tổng = "+sum);
+    }
+
+    public static void bai201(float a[]) {
+        float sum = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i] > 0 ) sum += a[i];
+        }
+        System.out.println("Bài 201: Tổng giá trị dương = "+sum);
+    }
+
+    public static void bai202(int a[]) {
+        int sum = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkDauLe(a[i]) ) sum += a[i];
+        }
+        System.out.println("Bài 202: Tổng giá trị cần tìm = "+sum);
+    }
+
+    public static void bai203(int a[]) {
+        int sum = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkHangChuc5(a[i]) ) sum += a[i];
+        }
+        System.out.println("Bài 203: Tổng giá trị cần tìm = "+sum);
+    }
+    public static boolean checkHangChuc5(int x) {
+        int test = (Math.abs(x)/10)%10;
+        if ( test == 5 ) return true;
+        return false;
+    }
+
+    public static void bai204(float a[]) {
+        float sum = 0;
+        for (int i = 1 ; i < a.length ; i++) {
+            if ( a[i] > a[i-1] ) {
+                sum += a[i];
+            }
+        }
+        System.out.println("Bài 204: Tổng giá trị cần tìm = "+sum);
+    }
+
+    public static void bai205(float a[]) {
+        float sum = 0;
+        for (int i = 0 ; i < a.length-1 ; i++) {
+            if ( a[i] > Math.abs(a[i+1]) ) {
+                sum += a[i];
+            }
+        }
+        System.out.println("Bài 205: Tổng giá trị cần tìm = "+sum);
+    }
+
+    public static void bai206(float a[]) {
+        float sum = 0;
+        if ( a[0] > a[1] ) {
+            sum = a[0] + tongPhanTuCucDai(a, 2);
+        }
+        else {
+            sum = tongPhanTuCucDai(a, 1);
+        }
+        System.out.println("Bài 206: Tổng cần tìm = "+sum);
+    }
+    public static float tongPhanTuCucDai(float a[], int x) {
+        float sum = 0;
+        for (int i = x ; i < a.length-1 ; i++) {
+            if ( a[i]<=a[i-1] || a[i]<=a[i+1] ) continue;
+            sum += a[i];
+            i++;
+        }
+        if ( a[a.length-1] > a[a.length-2] ) sum += a[a.length-1];
+        return sum;
+    }
+
+    public static void bai207(float a[]) {
+        float sum = 0;
+        if ( a[0] != a[1] ) {
+            sum = a[0] + tongPhanTuCucTri(a, 1);
+        } else sum = tongPhanTuCucTri(a, 1);
+        if ( a[a.length-1] != a[a.length-2] ) sum += a[a.length-1];
+        System.out.println("Bài 207: Tổng cần tìm = "+sum);
+    }
+    public static float tongPhanTuCucTri(float a[], int x) {
+        float sum = 0;
+        for (int i = x ; i < a.length-1 ; i++) {
+            if ( a[i]>a[i-1] && a[i]>a[i+1] ) sum += a[i];
+            if ( a[i]<a[i-1] && a[i]<a[i+1] ) sum += a[i];
+        }
+        return sum;
+    }
+
+    public static void bai208(int a[]) {
+        int sum = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkSCP(a[i]) ) sum += a[i];
+        }
+        System.out.println("Bài 208: Tổng các số chính phương = "+sum);
+    }
+
+    public static void bai209(int a[]) {
+        int sum = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkSĐX(a[i]) ) sum += a[i];
+        }
+        System.out.println("Bài 209: Tổng cần tìm = "+sum);
+    }
+    public static boolean checkSĐX(int n) {
+        int m = 0;
+        int l = n;
+        for ( int i = 0 ; l > 0 ; i++ ) {
+            m = (m*10 + l%10);
+            l /= 10;
+        }
+        if ( m == n ) return true;
+        return false;
+    }
+
+    public static void bai210(int a[]) {
+        int sum = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkDauChan(a[i]) ) sum += a[i];
+        }
+        System.out.println("Bài 210: Tổng cần tìm = "+sum);
+    }
+
+    public static void bai211(int a[]) {
+        int dem = 0;
+        int sum = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkSNT(a[i]) ) {
+                sum += a[i];
+                dem++;
+            }
+        }
+        float TBC = (float) sum/dem;
+        System.out.println("Bài 211: Trung bình cộng = "+TBC);
+    }
+
+    public static void bai212(float a[]) {
+        int dem = 0;
+        float sum = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i] > 0 ) {
+                sum += a[i];
+                dem++;
+            }
+        }
+        float TBC = (float) sum/dem;
+        System.out.println("Bài 212: Trung bình cộng = "+TBC);
+    }
+
+    public static void bai213(float a[]) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Nhập x = ");
+        float x = scanner.nextFloat();
+        int dem = 0;
+        float sum = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i] > x ) {
+                sum += a[i];
+                dem++;
+            }
+        }
+        float TBC = (float) sum/dem;
+        System.out.println("Bài 212: Trung bình cộng = "+TBC);
+    }
+
+    public static void bai214(float a[]) {
+        int dem = 0;
+        float nhan = 1;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i] > 0 ) {
+                nhan *= a[i];
+                dem++;
+            }
+        }
+        double mu = (double) 1/dem;
+        float TBN = (float) Math.pow(nhan, mu);
+        System.out.println("Bài 214: Trung bình nhân = "+TBN);
+    }
+
+    public static void bai215(int a[]) {
+        int sum = 0;
+        int dem = 0;
+        for (int i = 0 ; i < a.length-1 ; i++) {
+            sum += Math.abs(a[i]-a[i+1]);
+            dem++;
+        }
+        float tbc = (float) sum/dem;
+        System.out.println("Bài 125: Khoảng cách trung bình = "+tbc);
+    }
+
+
+    // KỸ THUẬT ĐẾM
+    public static void bai216(int a[]) {
+        int dem = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i]%2==0 ) dem++;
+        }
+        System.out.println("Bài 216: Số phần tử chẵn = "+dem);
+    }
+
+    public static void bai217(int a[]) {
+        int dem = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i]%7==0 ) dem++;
+        }
+        System.out.println("Bài 217: Số phần tử chia hết cho 7 = "+dem);
+    }
+
+    public static void bai218(int a[]) {
+        int dem = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkSĐX(a[i]) ) dem++;
+        }
+        System.out.println("Bài 218: Số phần tử đối xứng = "+dem);
+    }
+
+    public static void bai219(float a[]) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Bài 219: Nhập giá trị x = ");
+        float x = scanner.nextFloat();
+        int dem = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i]==x ) dem++;
+        }
+        System.out.println("==> Số phần tử có giá trị "+x+" = "+dem);
+    }
+
+    public static void bai220(int a[]) {
+        int dem = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkChuSoCuoiCung5(a[i]) ) dem++;
+        }
+        System.out.println("Bài 220: Số phần tử cần tìm = "+dem);
+    }
+    public static boolean checkChuSoCuoiCung5(int x) {
+        int test = Math.abs(x);
+        if ( test%10 == 5 ) return true;
+        return false;
+    }
+
+    public static void bai221(int a[]) {
+        int check = 0;
+        int demChan = 0, demLe = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i]%2!=0 ) demLe++;
+            else demChan++;
+        }
+        if ( demChan > demLe ) check = -1;
+        else if ( demChan < demLe ) check = 1;
+        else check = 0;
+        System.out.println("Bài 221: trả về "+check);
+    }
+
+    public static void bai222(int a[]) {
+        int dem = 0;
+        if ( a[0] != a[1] ) dem++;
+        if ( a[a.length-1] != a[a.length-2] ) dem++;
+        for (int i = 1 ; i < a.length-1 ; i++) {
+            if ( a[i]>a[i-1] && a[i]>a[i+1] ) dem++;
+            if ( a[i]<a[i-1] && a[i]<a[i+1] ) dem++;
+        }
+        System.out.println("Bài 222: Số cực trị = "+dem);
+    }
+
+    public static void bai223(int a[]) {
+        int dem = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( checkSNT(a[i]) ) dem++;
+        }
+        System.out.println("Bài 223: Tổng số nguyên tố = "+dem);
+    }
+
+    public static void bai224(int a[]) {
+        int dem = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( soHoanThien(a[i]) ) dem++;
+        }
+        System.out.println("Bài 224: Tổng số hoàn thiện = "+dem);
+    }
+    public static boolean soHoanThien(int x) {
+        boolean check = false;
+        int S = 0;
+        for (int i = 1 ; i <= x/2 ; i++){
+            if ( x % i == 0 ) S+=i;
+        }
+        if (S == x) check = true;
+        return check;
+    }
+
+    public static void bai225(float a[]) {
+        int dem = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            if ( a[i] == a[viTriGiaTriLonNhat(a)] ) dem++;
+        }
+        System.out.println("Bài 225: số lượng giá trị lớn nhất = "+dem);
+    }
+
+    public static void bai226(int a[]) {
+        int dem = 0;
+        for (int i = 1 ; i < a.length ; i++) {
+            if ( checkSoChan(a[i]) ) {
+                if ( checkSoChan(a[i-1])) {
+                    dem++;
+                }
+            }
+        }
+        System.out.println("Bài 226: số lượng giá trị cần tìm = "+dem);
+    }
+
+    public static void bai227(int a[]) {
+        int dem = 0;
+        for (int i = 0 ; i < a.length-1 ; i++) {
+            if ( a[i]*a[i+1]<0 ) {
+                dem++;
+            }
+        }
+        System.out.println("Bài 227: số lượng giá trị cần tìm = "+dem);
+    }
+
+    public static void bai228(int a[]) {
+        int dem = 0;
+        for (int i = 0 ; i < a.length-1 ; i++) {
+            if ( a[i]*a[i+1]>0 ) {
+                if ( Math.abs(a[i]) < Math.abs(a[i+1]) ) dem++;
+            }
+        }
+        System.out.println("Bài 228: số lượng giá trị cần tìm = "+dem);
+    }
+
+    public static void bai229(int a[]) {
+        int dem = 0;
+        for (int i = 0 ; i < a.length ; i++) {
+            for (int j = 0 ; j < a.length ; j++) {
+                if ( i == j ) continue;
+                if ( a[i]==a[j] ) break;
+            }
+            dem++;
+        }
+        System.out.println("Bài 229: số lượng các giá trị phân biệt = "+dem);
+    }
+
+    public static void bai230(int a[]) {
 
     }
 
-    // KỸ THUẬT TÍNH TỔNG
-
-    // KỸ THUẬT ĐẾM
 
     // KỸ THUẬT ĐẶT CỜ HIỆU
 
