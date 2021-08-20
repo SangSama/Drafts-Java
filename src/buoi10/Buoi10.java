@@ -31,6 +31,7 @@ public class Buoi10 {
     * => thuộc tính non static cũng vậy, khi có vùng nhớ để lưu trữ nó nó mới có thể mang được giá trị
     * => trong quá trình compile time, nó chưa trỏ đến vùng nhớ nào nên chưa có giá trị => static không hiểu được
     *
+    *
     *** final ***
     * => final sinh ra để khai báo một hằng số
     * => khởi tạo biến final thường đi kèm với static vì static chỉ khởi tạo một lần

@@ -1,6 +1,7 @@
 package buoi13;
 
 import java.lang.reflect.Field;
+import java.util.Scanner;
 
 public class Buoi13 {
     /*
@@ -23,6 +24,8 @@ public class Buoi13 {
 //        field.setAccessible(true);
 //        field.set(tree3, "xả");
 //        System.out.println(tree3.getName());
+
+        Scanner sc = new Scanner(System.in);
 
     }
 }
