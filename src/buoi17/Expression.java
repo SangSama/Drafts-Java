@@ -1,7 +1,15 @@
 package buoi17;
 
+/*
+* Khi interface được đánh dấu là functionprograming phải thỏa mãn:
+* => interface chỉ chứa duy nhất 1 public abstract method
+*
+*
+* */
+
 @FunctionalInterface
 public interface Expression {
+
     String operator();
 
     static String equal() {
