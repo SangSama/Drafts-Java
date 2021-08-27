@@ -25,17 +25,18 @@ public class Buoi4 {
 
 //        System.out.print("Nhập chiều cao a: ");
 //        int a = sc.nextInt();
-//
-//        // Bài in ra tam giác rỗng
-//        System.out.println("Tam giác rỗng");
-//        for ( int i = 1 ; i <= a ; i++ ) {
-//            for ( int j = 1 ; j <= i ; j++ ) {
-//                if ( j == 1 || i == a || j == i ) {
-//                    System.out.print("*");
-//                } else System.out.print(" ");
-//            }
-//            System.out.println();
-//        }
+
+        int a = 5;
+        // Bài in ra tam giác rỗng
+        System.out.println("Tam giác rỗng");
+        for ( int i = 1 ; i <= a ; i++ ) {
+            for ( int j = 1 ; j <= i ; j++ ) {
+                if ( j == 1 || i == a || j == i ) {
+                    System.out.print("*");
+                } else System.out.print(" ");
+            }
+            System.out.println();
+        }
 //
 //        // Bài tam giác cân nhưng không vuông
 //        System.out.println("Tam giác cân nhưng không vuông");
