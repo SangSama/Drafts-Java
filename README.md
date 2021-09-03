@@ -1,11 +1,52 @@
 # Drafts-Java
-Come on!
-
+Come on! Cố gắng kiếm tiền nào <3
 Start learning Java from zero to good application!!!
-#ssm
+#ssm - học phí: 7tr200 :3
 
-1. KTLT (hình thành tư duy )
-2. JAVA CORE (tư duy lập trình hướng đối tượng theo ngôn ngữ java )
-3. CSDL (Cách thao tác cơ bản đến nâng cao vs CSDL)
-4. WEB JSP-SERVLET (LÀM WEB SITE)
-5. SPRING FRAME WORK (LÀM WEBSITE)
+Phần 1: Kỹ thuật lập trình cơ bản (hình thành tư duy )
+-Các kiểu dữ liệu trong java 
+-Câu lệnh điều kiện rẽ nhánh
+-Vòng lặp 
+-Hàm
+-Mảng 1 chiều và các kỹ thuật thao tác vs mảng 1 chiều nâng cao
+-Mảng 2 chiều và các kỹ thuật thao tác vs mảng 2 chiều nâng cao
+-Danh sách liên kết (đơn, đôi, vòng đơn, vòng đôi) và ứng dụng
+-Stack và ứng dụng 
+-Queue và ứng dụng
+-Đệ quy
+
+Phần 2: Java core (tư duy lập trình hướng đối tượng theo ngôn ngữ java )
+-Hướng dẫn lập trình hướng đối tượng trong java 
+-Áp dụng nguyên lý solid trong khi thiết kế class 
+-Hướng dẫn các design pattern và ứng dụng nó khi thiết kế các class
+-Hướng dẫn sử dụng Collection trong java 
+-Hướng dẫn lập trình java 8
+-Hướng dẫn cách xử lý và bắt các ngoại lệ trong java 
+-Hướng dẫn sử dụng generic, annotation, reflection áp dụng viết lại các tính năng quan trọng trong spring như autowire và orm (giống như hibernate)
+-Hướng dẫn đọc ghi file trong java 
+-Hướng dẫn lập trình đa luồng trong java 
+
+Phần 3: Cơ sở dữ liệu (Cách thao tác cơ bản đến nâng cao vs CSDL)
+-Viết các câu lệnh truy vấn cơ bản (thêm sửa xóa tìm kiếm)
+-Hướng dẫn viết các câu truy vấn phức tạp (query lồng, group by, having...)
+-Hướng dẫn sử dụng execution plan để đo tốc độ câu truy vấn
+
+Phần 4: WEB JSP-SERVLET (LÀM WEB SITE)
+-Hướng dẫn build lại hibernate áp dụng design pattern repository, specification, adapter để build các hàm chung 
+-Hoàn thiện website bán hàng sử dụng template có sẵn
+
+Phần 5: SPRING FRAME WORK (LÀM WEBSITE)
+-Hướng dẫn cơ chế hoạt động của spring 
+-Hướng dẫn sử dụng các annotation cơ bản trong spring như: @Autowire,@Configuration, @Service, @Controller, .... 
+-Hướng dẫn dùng jwt vs spring security khi bảo mật web 
+-Hướng dẫn sử dụng spring data jpa để thao tác vs cơ sở dữ liệu 
+
+-----------------------------------------------------------------------------------
+  Buổi 01: Các kiểu dữ liệu trong java
+  Buổi 02: Câu lệnh điều kiện rẽ nhánh & Thuật toán đặt lính canh
+  Buổi 03: Vòng lặp
+  Buổi 04: Ôn tập các cấu trúc điều khiển, học continue, break & Thuật toán đặt cờ hiệu
+  Buổi 05: Hàm, biến toàn cục & biến cục bộ, tham trị & tham chiếu, mở đầu mảng 1 chiều
+  Buổi 06: Các thao tác cơ bản của mảng & Thuật toán tìm kiếm, thuật toán sắp xếp. thuật toán lùa bò vào chuồng & kỹ thuật mảng đánh dấu, kỹ thuật mảng con
+  Buổi 07: Mảng 2 chiều
+  Buổi 08:
