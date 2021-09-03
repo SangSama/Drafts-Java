@@ -37,7 +37,7 @@ public class Buoi5 {
     *-------------------------------------------------------------------------------------------------
     *
     * ARRAY:
-    * Tập hợp => gồm các phần tử có chugn tính chất
+    * Tập hợp => gồm các phần tử có chung tính chất
     * => Mảng là tập hợp các phần tử có chung với nhau về mặt tính chất
     * VD: có 1000 biến kiểu nguyên, ta không thể nào nhớ hết được
     *     ==> mảng để quản lý các biến chung kiểu

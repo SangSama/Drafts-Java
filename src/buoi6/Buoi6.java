@@ -16,7 +16,7 @@ public class Buoi6 {
     * - thuật toán sắp xếp
     * - thuật toán lùa bò vào chuồng
     * - kỹ thuật mảng đánh dấu
-    * - kỹ thuật
+    * - kỹ thuật mảng con
     * */
 
     private static int n;
