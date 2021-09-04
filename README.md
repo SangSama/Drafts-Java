@@ -51,18 +51,18 @@ Phần 5: SPRING FRAME WORK (LÀM WEBSITE)
   * Buổi 05: Hàm, biến toàn cục & biến cục bộ, tham trị & tham chiếu, mở đầu mảng 1 chiều
   * Buổi 06: Các thao tác cơ bản của mảng & Thuật toán tìm kiếm, thuật toán sắp xếp. thuật toán lùa bò vào chuồng & kỹ thuật mảng đánh dấu, kỹ thuật mảng con
   * Buổi 07: Mảng 2 chiều
-  * Buổi 08:
-  * Buổi 09:
-  * Buổi 10:
-  * Buổi 11:
-  * Buổi 12:
-  * Buổi 13:
-  * Buổi 14:
-  * Buổi 15:
-  * Buổi 16:
-  * Buổi 17:
-  * Buổi 18:
-  * Buổi 19:
+  * Buổi 08: OOP (class, object, Access Modifier, Encapsulation, constructor, new) && Đệ quy, printf
+  * Buổi 09: Vùng nhớ heap, stack, pool & học về String, StringBuilder, StringBuffer
+  * Buổi 10: Học this, static, final, giới thiệu compile-time, runtime & Singleton design pattern, Single Thread, Multi Thread
+  * Buổi 11: Inheritance & polymorphism, Signature Function, Override, Overload, final, is-a & has-a, dependency injection
+  * Buổi 12: Abstract class & Interface, java8 (Default Method, Static Method), giới thiệu design pattern, dependency injection, dependency inversion
+  * Buổi 13: giới thiệu 3 cách khởi tạo giá trị thuộc tính name & chữa bài
+  * Buổi 14: Nested Class, Inner Class, Static Class - Non Static Class, Anonymous Object, Anonymous Class, Builder Pattern, Adapter Pattern, Command Pattern, Factory Pattern, Dependence Injection, Dependence Inversion
+  * Buổi 15: Generic, LinkedList, Double Linked List, Circle Linked List, Stack, Queue
+  * Buổi 16: Collection & Observer Pattern, giới thiệu Map
+  * Buổi 17: java8, functional programing, Stream, lambda expression, reference method
+  * Buổi 18: Debug, GIT, Exception, Enum, giới thiệu Try.. Catch..
+  * Buổi 19: Annotation & Reflection
   * Buổi 20:
   * Buổi 21:
   * 
