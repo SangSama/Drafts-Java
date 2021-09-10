@@ -27,7 +27,7 @@ public class Buoi12 {
     * - 1 Interface có thể extends được nhiều Interface khác
     *
     *** Học thêm 2 phương thức trong java 8
-    * ** default method **
+    * ** Default Method **
     * => phương thức default trong interface thì các class implement nó được mặc định sử sụng phương thức default
     * mà không cần override lại, trừ khi các class imlement có nhu cầu override lại
     * ** Static Method **

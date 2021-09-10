@@ -1,5 +1,5 @@
 package buoi19;
 
-@MyAnnotation
+//@MyAnnotation
 public class Demo {
 }

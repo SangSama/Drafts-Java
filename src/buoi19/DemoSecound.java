@@ -2,7 +2,9 @@ package buoi19;
 
 // muốn giữ hàm Demo nên mới tạo hàm này
 public class DemoSecound {
+    @MyAnnotation(name = "name")
     private String name;
+    @MyAnnotation(name = "age")
     private Integer age;
     private String address;
     private Boolean sex;

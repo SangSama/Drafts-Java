@@ -60,21 +60,21 @@ public class Buoi19 {
 
 
         // truy cập và set lại giá trị của các thuộc tính private
-        Map<String, Object> map = new HashMap<>();
-        map.put("name", "sang");
-        map.put("age", 15);
-        map.put("address", "hanoi");
-        map.put("sex", true);
-
-        map.put("demo1", new Demo1("sangxxx", "demo"));
+//        Map<String, Object> map = new HashMap<>();
+//        map.put("name", "sang");
+//        map.put("age", 15);
+//        map.put("address", "hanoi");
+//        map.put("sex", true);
+//
+//        map.put("demo1", new Demo1("sangxxx", "demo"));
 
 //        DemoSecound demoSecound = ReflectionUtil.convertToEntity(map, DemoSecound.class);
 //        System.out.println(demoSecound);
 
 
         //
-        DemoSecound demoSecound = ReflectionUtil.convertToEntity(map, DemoSecound.class);
-        System.out.println(demoSecound);
+//        DemoSecound demoSecound = ReflectionUtil.convertToEntity(map, DemoSecound.class);
+//        System.out.println(demoSecound);
 
 //        Field[] fields = DemoSecound.class.getDeclaredFields();
 //
@@ -87,6 +87,15 @@ public class Buoi19 {
 //                e.printStackTrace();
 //            }
 //        });
+
+        // dạy trong bài 20 - File
+        Field[] fields = DemoSecound.class.getDeclaredFields();
+        Arrays.stream(fields).forEach(field -> {
+            if (field.isAnnotationPresent(MyAnnotation.class)){
+                String name  = field.getAnnotation(MyAnnotation.class).name();
+                System.out.println(name);
+            }
+        });
 
     }
 }
