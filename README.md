@@ -63,6 +63,6 @@ Phần 5: SPRING FRAME WORK (LÀM WEBSITE)
   * Buổi 17: java8, functional programing, Stream, lambda expression, reference method
   * Buổi 18: Debug, GIT, Exception, Enum, giới thiệu Try.. Catch..
   * Buổi 19: Annotation & Reflection
-  * Buổi 20:
+  * Buổi 20: File And Build orm
   * Buổi 21:
   * 
