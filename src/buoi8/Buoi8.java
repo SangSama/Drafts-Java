@@ -33,7 +33,7 @@ public class Buoi8 {
     *
     *
     *** Access Modifier: Phạm vi hoạt động của biến trong class
-        cùng class -- khác clas cùng package -- khác class khác package nhưng có mqh cha con -- khác class khác package nhưng k có mqh cha con
+        cùng class -- khác class cùng package -- khác class khác package nhưng có mqh cha con -- khác class khác package nhưng k có mqh cha con
 public      v                   v                                   v                                               v
 protected   v                   v                                   v                                               x
 default     v                   v                                   x                                               x
@@ -155,6 +155,37 @@ private     v                   x                                   x           
         } while (st.getsDT().length() != 7);
     }
 
+    // *** CompareTo Method ***
+    // sử dụng compareTo() cho chuỗi => tuân thủ theo thứ tự từ điển
+    //      Thứ tự từ điển ??? <=> ...< Z < a < b < c < d < ... z : bảng mã ASCII
+    //      => Khi so sánh chuỗi thì nó sẽ ưu tiên so sánh thứ tự từ điểm
+    //      => so sánh đến độ dài
+    //              s1 > s2 > 0
+    //              s1 = s2 = 0
+    //              s1 < s2 < 0
+    // VD: s1: abc; s2: z; => s1 < s2; i; vị trí tương ứng
+    // s1[i] - s2[i] > 0 => s1[i] xuất hiện sau s2[i]
+    // s1[i] - s2[i] < 0 => s1[i] xuất hiện trước s2[i]
+    // s1[i] - s2[i] = 0 => s1[i] xuất hiện cùng với s2[i]
+    // VD: s1: abc; s2: abcd; => xét đến độ dài
+    // VD: str1 = "a" , str2 = "b"
+    // => str1.compareTo("b") ---> -1 => < 0 : str1 đứng trước str2
+    // => str1.compareTo("a") ---> 0  => = 0 : str 1 chính là str2
+    // => str2.compareTo("a") ---> 1  => > 0 : str1 đứng sau str2
+    // Có phân biệt in hoa và in thường => không muốn phân biệt in hoa và in thường --> compareToIgnoreCase
+    public static int compareToMethod(String str1, String str2) {
+        int minLength = Math.min(str1.length(), str2.length());
+        for (int i = 0 ; i < minLength ; i++) {
+            int hieu = str1.toCharArray()[i] - str2.toCharArray()[i];
+            if (hieu != 0) return hieu;
+        }
+        if (str1.length() > str2.length()) {
+            return 1;
+        } else if (str1.length() < str2.length()) {
+            return -1;
+        } else return 0;
+    }
+
 
     public static void main(String[] args) {
 
@@ -271,50 +302,67 @@ private     v                   x                                   x           
 //        hTP1.kiemTraHSD();
 
         // bài 7:
-        System.out.println("Bài 7: ");
-        Student[] st = null;
-        int x, n=0;
-        boolean check = true;
-        do {
-            System.out.println("Chọn làm gì?");
-            System.out.println("1. Nhập thông tin sinh viên. \n"+"2. Xuất danh sách sinh viên. \n"+"Nhập số khác để thoát");
-            x = scanner.nextInt();
-            switch (x) {
-                case 1:
-                    System.out.println("Số lượng sinh viên cần nhập: ");
-                    n = scanner.nextInt();
-                    st = new Student[n];
-                    for (int i = 0 ; i < st.length ; i++) {
-                        System.out.println("Sinh viên thứ ("+(i+1)+") : ");
-                        st[i] = new Student();
-                        nhapThongTin(st[i]);
-                    }
-                    break;
-                case 2:
-                    System.out.println("Danh sách sinh viên: ");
-                    Student temp = new Student();
-                    for (int i = 0 ; i < st.length ; i++) {
-                        for (int j = i + 1 ; i < st.length ; i++) {
-                            if ( st[i].getMssv() > st[j].getMssv() ) {
-                                temp = st[i];
-                                st[i] = st[j];
-                                st[j] = temp;
-                            }
-                        }
-                    }
-                    System.out.printf("%-5s %15s %15s %20s \n", "MSSV", "Họ và tên", "Địa chỉ", "Số điện thoại");
-                    for (int i = 0 ; i < st.length ; i++) {
-                        st[i].hienThiTT();
-                    }
-                    break;
-                default:
-                    System.out.println("Thoát!!!");
-                    check = false;
-                    break;
-            }
-        } while (check);
+//        System.out.println("Bài 7: ");
+//        Student[] st = null;
+//        int x, n=0;
+//        boolean check = true;
+//        do {
+//            System.out.println("Chọn làm gì?");
+//            System.out.println("1. Nhập thông tin sinh viên. \n"+"2. Xuất danh sách sinh viên. \n"+"Nhập số khác để thoát");
+//            x = scanner.nextInt();
+//            switch (x) {
+//                case 1:
+//                    System.out.println("Số lượng sinh viên cần nhập: ");
+//                    n = scanner.nextInt();
+//                    st = new Student[n];
+//                    for (int i = 0 ; i < st.length ; i++) {
+//                        System.out.println("Sinh viên thứ ("+(i+1)+") : ");
+//                        st[i] = new Student();
+//                        nhapThongTin(st[i]);
+//                    }
+//                    break;
+//                case 2:
+//                    System.out.println("Danh sách sinh viên: ");
+//                    Student temp = new Student();
+//                    for (int i = 0 ; i < st.length ; i++) {
+//                        for (int j = i + 1 ; i < st.length ; i++) {
+//                            if ( st[i].getMssv() > st[j].getMssv() ) {
+//                                temp = st[i];
+//                                st[i] = st[j];
+//                                st[j] = temp;
+//                            }
+//                        }
+//                    }
+//                    System.out.printf("%-5s %15s %15s %20s \n", "MSSV", "Họ và tên", "Địa chỉ", "Số điện thoại");
+//                    for (int i = 0 ; i < st.length ; i++) {
+//                        st[i].hienThiTT();
+//                    }
+//                    break;
+//                default:
+//                    System.out.println("Thoát!!!");
+//                    check = false;
+//                    break;
+//            }
+//        } while (check);
 
         // bài 8:
-
+        // CompareToMethod
+//        String str1 = "abc ";
+//        String str2 = "abcd";
+        // sp = 32 (hệ 10)
+        // d == 100 (hệ 10)
+        // => sp - d = - 68 và ngược lại
+//        System.out.println(compareToMethod(str1, str2));
+//        System.out.println(str1.compareTo(str2));
+//        System.out.println(compareToMethod(str2, str1));
+//        System.out.println(str2.compareTo(str1));
+        ManageCD manageCD = new ManageCD(3);
+        CD cd1 = new CD(1, "album", "Hai Bang", 15, 30.000);
+        manageCD.addCD(cd1);
+        CD cd2 = new CD(2, "album 123", "Hai Bang", 16, 30.000);
+        manageCD.addCD(cd2);
+        CD cd3 = new CD(1, "album 67893", "Hai Bang", 16, 30.000);
+        boolean check = manageCD.addCD(cd3);
+        System.out.println(check);
     }
 }
