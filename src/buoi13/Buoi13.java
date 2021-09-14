@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Buoi13 {
     /*
-    *
+    * LÀM BÀI TẬP VỀ NHÀ: từ trang 33-59 tỏng file TopTaiLieu.com....
     *
     * */
 

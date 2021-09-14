@@ -30,7 +30,7 @@ public class ManageCD {
 
         }
 
-        cds[i++] = newCD;
+        cds[i] = newCD;
         n++;
         return true;
     }
@@ -39,6 +39,7 @@ public class ManageCD {
     public int size() {
         int count = 0;
         for (CD cd : cds) {
+            if (cd == null) break;
             count++;
         }
         return count;
@@ -57,7 +58,7 @@ public class ManageCD {
     public void sortByPrice() {
         for (int i = 0 ; i < n ; i++) {
             for (int j = i+1 ; j < n ; j++) {
-                if (cds[i].getGiaThanh() < cds[j].getGiaThanh()) {
+                if (cds[i] != null && cds[j] != null && cds[i].getGiaThanh() < cds[j].getGiaThanh()) {
                     swap(cds, i, j);
                 }
             }
@@ -91,9 +92,18 @@ public class ManageCD {
         // Có phân biệt in hoa và in thường => không muốn phân biệt in hoa và in thường --> compareToIgnoreCase
         for (int i = 0 ; i < n ; i++) {
             for (int j = i+1 ; j < n ; j++) {
-                if (cds[i].getTuaCD().compareTo(cds[j].getTuaCD()) > 0) {
+                if (cds[i] != null && cds[j] != null && cds[i].getTuaCD().compareTo(cds[j].getTuaCD()) > 0) {
                     swap(cds, i, j);
                 }
+            }
+        }
+    }
+
+    // hàm in ra
+    public void output() {
+        for (CD cd : cds) {
+            if (cd != null) {
+                System.out.println(cd);
             }
         }
     }

@@ -357,12 +357,14 @@ private     v                   x                                   x           
 //        System.out.println(compareToMethod(str2, str1));
 //        System.out.println(str2.compareTo(str1));
         ManageCD manageCD = new ManageCD(3);
-        CD cd1 = new CD(1, "album", "Hai Bang", 15, 30.000);
+        CD cd1 = new CD(1, "album", "Hai Bang", 15, 32.000);
         manageCD.addCD(cd1);
-        CD cd2 = new CD(2, "album 123", "Hai Bang", 16, 30.000);
+        CD cd2 = new CD(2, "album 123", "Hai Bang", 16, 28.000);
         manageCD.addCD(cd2);
-        CD cd3 = new CD(1, "album 67893", "Hai Bang", 16, 30.000);
+        CD cd3 = new CD(3, "album 67893", "Hai Bang", 13, 30.000);
         boolean check = manageCD.addCD(cd3);
         System.out.println(check);
+        manageCD.sortByTuaCD();
+        manageCD.output();
     }
 }
