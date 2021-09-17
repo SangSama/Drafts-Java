@@ -64,5 +64,5 @@ Phần 5: SPRING FRAME WORK (LÀM WEBSITE)
   * Buổi 18: Debug, GIT, Exception, Enum, giới thiệu Try.. Catch..
   * Buổi 19: Annotation & Reflection
   * Buổi 20: File And Build orm
-  * Buổi 21:
-  * 
+  * Buổi 21: Thread
+  * Buổi 22: Cơ sở dữ liệu - 01
