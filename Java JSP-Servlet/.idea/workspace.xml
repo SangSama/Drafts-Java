@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3c384b06-10b5-467b-8159-b7ed9e888a96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/lib/kotlin-reflect-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/lib/kotlin-reflect.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/lib/kotlin-stdlib-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/lib/kotlin-stdlib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/lib/kotlin-test-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/lib/kotlin-test.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java-00/buoi1/Buoi1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java-00/buoi2/Buoi2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java-00/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/HomeWorkJavaCore/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi1/Buoi1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi10/Buoi10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi10/SinhVien.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi11/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi11/Buoi11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi11/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi11/ManageAnimal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi12/Bicycle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi12/Buoi12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi12/Car.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi12/HangXe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi12/HolidayTravel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi12/Train.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi12/Travel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi13/Buoi13.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi13/Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/AdapterTravel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/Buoi14$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/Buoi14$Interface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/Buoi14$Nested.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/Buoi14$StaticNested.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/Buoi14.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/School$SchoolBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/School.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/Student$StudentBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/Train.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/Travel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi14/TravelFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/Buoi15.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/collection/LinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/collection/LinkedList2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/collection/List.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/collection/List2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/collection/Node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/collection/Node2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/generic/BaseBusiness.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/generic/Bond.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/generic/BondBusiness.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/generic/Business.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/generic/CKConstant.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/generic/Fund.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi15/generic/FundBusiness.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/Buoi16$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/Buoi16$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/Buoi16.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/collection/Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/collection/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/collection/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/collection/entity/Account$AccountBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/collection/entity/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/collection/event/EmailEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/collection/event/Event.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/collection/event/SMSEvent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/collection/manager/AccountPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/collection/manager/EventManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi16/collection/manager/FollowType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/Buoi17$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/Buoi17.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/Equal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/Expression.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/Function.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/Math.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/Math2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/Query.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/QueryPractice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/ReferenceMethod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/SqlBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/SqlFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/SqlSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi17/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi18/Buoi18.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi18/DemoEnum.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi18/ExceptionDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/AbstractRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/Buoi19.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/Demo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/Demo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/DemoSecound.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/FieldUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/JpaReository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/MyAnnotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/ReflectionUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/converter/BooleanConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/converter/Converter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/converter/DataConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/converter/IntegerConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/converter/LongConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi19/converter/StringConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi2/Buoi2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi20/Buoi20.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi21/Buoi21$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi21/Buoi21.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi21/thread/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi22/Buoi22.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi23/Buoi23.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi3/Buoi3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi4/Buoi4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi5/Buoi5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi6/Buoi6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi7/Buoi7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi8/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi8/Buoi8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi8/CD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi8/HangThucPham.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi8/HinhChuNhat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi8/ManageCD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi8/Rational.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi8/SinhVien.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi8/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi8/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/buoi9/Buoi9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/out/production/java/com/company/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/HomeWorkJavaCore/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi1/Buoi1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi10/Buoi10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi10/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi11/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi11/Buoi11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi11/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi11/ManageAnimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi12/Bicycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi12/Buoi12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi12/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi12/HangXe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi12/HolidayTravel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi12/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi12/Travel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi13/Buoi13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi13/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi14/AdapterTravel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi14/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi14/Buoi14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi14/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi14/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi14/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi14/Train.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi14/Travel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi14/TravelFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/Buoi15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/collection/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/collection/LinkedList2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/collection/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/collection/List2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/collection/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/collection/Node2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/generic/BaseBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/generic/Bond.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/generic/BondBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/generic/Business.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/generic/CKConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/generic/Fund.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi15/generic/FundBusiness.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi16/Buoi16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi16/collection/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi16/collection/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi16/collection/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi16/collection/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi16/collection/event/EmailEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi16/collection/event/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi16/collection/event/SMSEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi16/collection/manager/AccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi16/collection/manager/EventManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi16/collection/manager/FollowType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi16/collection/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/Buoi17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/Equal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/Function.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/Math2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/QueryPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/ReferenceMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/SqlBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/SqlFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/SqlSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi17/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi18/Buoi18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi18/DemoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi18/ExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/AbstractRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/Buoi19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/DemoSecound.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/FieldUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/JpaReository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/ReflectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/converter/BooleanConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/converter/Converter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/converter/DataConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/converter/IntegerConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/converter/LongConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi19/converter/StringConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi2/Buoi2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi20/Buoi20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi21/Buoi21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi21/thread/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi22/Buoi22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi23/Buoi23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi3/Buoi3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi4/Buoi4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi5/Buoi5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi6/Buoi6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi7/Buoi7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi8/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi8/Buoi8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi8/CD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi8/HangThucPham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi8/HinhChuNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi8/ManageCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi8/Rational.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi8/SinhVien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi8/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi8/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/buoi9/Buoi9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/src/com/company/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java Core/ssm0419" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-reflect-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-reflect.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-stdlib-jdk7-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-stdlib-jdk7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-stdlib-jdk8-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-stdlib-jdk8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-stdlib-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-stdlib.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-test-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/kotlin-test.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java-00/buoi1/Buoi1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java-00/buoi2/Buoi2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java-00/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/HomeWorkJavaCore/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi1/Buoi1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi10/Buoi10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi10/SinhVien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi11/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi11/Buoi11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi11/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi11/ManageAnimal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi12/Bicycle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi12/Buoi12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi12/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi12/HangXe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi12/HolidayTravel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi12/Train.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi12/Travel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi13/Buoi13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi13/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/AdapterTravel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/Buoi14$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/Buoi14$Interface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/Buoi14$Nested.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/Buoi14$StaticNested.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/Buoi14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/School$SchoolBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/School.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/Student$StudentBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/Train.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/Travel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi14/TravelFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/Buoi15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/collection/LinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/collection/LinkedList2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/collection/List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/collection/List2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/collection/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/collection/Node2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/generic/BaseBusiness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/generic/Bond.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/generic/BondBusiness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/generic/Business.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/generic/CKConstant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/generic/Fund.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi15/generic/FundBusiness.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/Buoi16$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/Buoi16$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/Buoi16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/collection/Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/collection/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/collection/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/collection/entity/Account$AccountBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/collection/entity/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/collection/event/EmailEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/collection/event/Event.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/collection/event/SMSEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/collection/manager/AccountPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/collection/manager/EventManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi16/collection/manager/FollowType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/Buoi17$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/Buoi17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/Equal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/Expression.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/Math.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/Math2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/QueryPractice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/ReferenceMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/SqlBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/SqlFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/SqlSupport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi17/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi18/Buoi18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi18/DemoEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi18/ExceptionDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/AbstractRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/Buoi19.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/Demo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/Demo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/DemoSecound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/FieldUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/JpaReository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/MyAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/ReflectionUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/converter/BooleanConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/converter/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/converter/DataConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/converter/IntegerConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/converter/LongConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi19/converter/StringConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi2/Buoi2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi20/Buoi20.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi3/Buoi3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi4/Buoi4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi5/Buoi5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi6/Buoi6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi7/Buoi7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi8/Account.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi8/Buoi8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi8/CD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi8/HangThucPham.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi8/HinhChuNhat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi8/ManageCD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi8/Rational.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi8/SinhVien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi8/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi8/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/buoi9/Buoi9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../out/production/java/com/company/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/HomeWorkJavaCore/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi1/Buoi1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi10/Buoi10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi10/SinhVien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi11/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi11/Buoi11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi11/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi11/ManageAnimal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi12/Bicycle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi12/Buoi12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi12/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi12/HangXe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi12/HolidayTravel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi12/Train.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi12/Travel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi13/Buoi13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi13/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi14/AdapterTravel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi14/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi14/Buoi14.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi14/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi14/School.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi14/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi14/Train.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi14/Travel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi14/TravelFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/Buoi15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/collection/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/collection/LinkedList2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/collection/List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/collection/List2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/collection/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/collection/Node2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/generic/BaseBusiness.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/generic/Bond.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/generic/BondBusiness.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/generic/Business.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/generic/CKConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/generic/Fund.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi15/generic/FundBusiness.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi16/Buoi16.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi16/collection/Builder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi16/collection/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi16/collection/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi16/collection/entity/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi16/collection/event/EmailEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi16/collection/event/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi16/collection/event/SMSEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi16/collection/manager/AccountPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi16/collection/manager/EventManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi16/collection/manager/FollowType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi16/collection/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/Buoi17.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/Equal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/Function.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/Math.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/Math2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/QueryPractice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/ReferenceMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/SqlBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/SqlFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/SqlSupport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi17/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi18/Buoi18.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi18/DemoEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi18/ExceptionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/AbstractRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/Buoi19.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/Demo1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/DemoSecound.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/FieldUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/JpaReository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/MyAnnotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/ReflectionUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/converter/BooleanConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/converter/Converter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/converter/DataConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/converter/IntegerConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/converter/LongConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi19/converter/StringConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi2/Buoi2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi20/Buoi20.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi21/Buoi21.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi3/Buoi3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi4/Buoi4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi5/Buoi5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi6/Buoi6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi7/Buoi7.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi8/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi8/Buoi8.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi8/CD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi8/HangThucPham.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi8/HinhChuNhat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi8/ManageCD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi8/Rational.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi8/SinhVien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi8/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi8/Vehicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/buoi9/Buoi9.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/company/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ssm0419" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1zypvWAbp5Lp1k0LIc0wpDonFFY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java Core" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c384b06-10b5-467b-8159-b7ed9e888a96" name="Changes" comment="" />
+      <created>1635130414674</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635130414674</updated>
+      <workItem from="1635130415959" duration="295000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
