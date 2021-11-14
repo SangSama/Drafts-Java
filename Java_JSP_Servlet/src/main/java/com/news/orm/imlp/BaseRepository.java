@@ -38,7 +38,8 @@ public class BaseRepository<T, ID extends Serializable> implements JpaRepository
         Field[] fields = tClass.getDeclaredFields();
         final StringBuilder columns = new StringBuilder();
         final StringBuilder values = new StringBuilder();
-        Map<String, Integer> map = new HashMap<>();
+        Map<String, Integer> map = new HashMap<>(); // key => tên field , value = vị trí của field trong database
+        // tìm hiểu cách java tương tác db qua jdbc
         AtomicInteger index = new AtomicInteger(1);
         Arrays.stream(fields).forEach(field -> {
             if (field.isAnnotationPresent(Id.class)) {

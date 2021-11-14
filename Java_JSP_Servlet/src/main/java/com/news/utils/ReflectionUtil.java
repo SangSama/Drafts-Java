@@ -23,7 +23,7 @@ public class ReflectionUtil {
         } else {
             prefix = "get";
         }
-        name = "is" + name.substring(0, 1).toUpperCase() + name.substring(1);
+        name = prefix + name.substring(0, 1).toUpperCase() + name.substring(1);
 
         /*
         * invoke()
