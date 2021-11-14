@@ -1,4 +1,4 @@
-package com.news.repository;
+package com.news.repository.jdbc_connection;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,7 +1,7 @@
 package com.news;
 
-import com.news.repository.ConnectionInfo;
-import com.news.repository.ConnectionManager;
+import com.news.repository.jdbc_connection.ConnectionInfo;
+import com.news.repository.jdbc_connection.ConnectionManager;
 
 import java.sql.*;
 
@@ -55,6 +55,30 @@ import java.sql.*;
 * DELETE FROM nhanvien; => xóa sạch nhanvien
 *
 * => để tránh chúng ta sẽ không cộng chuỗi:
+*
+* */
+
+/*
+*** ORM : Object Relational Mapping
+* => từ ORM xây dựng ra JPA => JPA là Interface => định nghĩa ra các phương thức và implement
+* => JPA : Java Persistence API
+* => API : Application Programming Interface
+*
+*** Framework nổi tiếng của ORM:
+*   + Hibernate
+*   + Mybatis
+*
+*** Mục tiêu của chương này:
+* => build ra thư viện phục vụ việc truy vấn database => thuận tiện hơn
+*   insert()
+*   update()
+*   delete()
+*   findById()
+*   findAll()
+*   findAll(PageAble pageAble)
+*   findAll(Specication specication)
+* ...........
+*
 *
 * */
 
