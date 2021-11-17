@@ -1,10 +1,17 @@
 package com.news.utils;
 
 import com.news.exception.OrmException;
+import com.news.orm.annotation.Id;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.Arrays;
+
+import static com.news.utils.AnnotationUtil.getColumnName;
+import static com.news.utils.AnnotationUtil.primaryColumn;
 
 public class ReflectionUtil {
     private ReflectionUtil() {}
@@ -55,5 +62,26 @@ public class ReflectionUtil {
 //        // => không nên làm như vậy
 //        field.setAccessible(true);
 //        field.set(instance, value);
+    }
+
+    public static <T> T mapToEntity(ResultSet resultSet, Class<T> tClass) throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+        final T t = tClass.getDeclaredConstructor().newInstance();
+        Field[] fields = tClass.getDeclaredFields();
+        Arrays.stream(fields).forEach(field -> {
+            String columnName;
+            if (!field.isAnnotationPresent(Id.class)) {
+                columnName = getColumnName(tClass, field.getName());
+            } else {
+                columnName = primaryColumn(tClass, field.getName());
+            }
+
+            try {
+                set(field, t, resultSet.getObject(columnName));
+            } catch (SQLException e) {
+                throw new OrmException(e.getMessage());
+            }
+        });
+
+        return t;
     }
 }

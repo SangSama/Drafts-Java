@@ -1,6 +1,5 @@
 package com.news.orm;
 
-import com.news.orm.annotation.Id;
 import com.news.orm.paging.Page;
 import com.news.orm.paging.PageAble;
 
@@ -15,9 +14,11 @@ public interface JpaRepository<T, ID extends Serializable> {
 
     Optional<T> findById(ID id);
 
-    T getOne();
+    T getOne(ID id);
 
     Page<T> findAll(PageAble pageAble);
 
     List<T> findAll();
+
+    long count();
 }

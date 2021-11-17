@@ -7,6 +7,8 @@ import com.news.repository.UserRepository;
 import com.news.repository.impl.NhanVienRepositoryImpl;
 import com.news.repository.impl.UserRepositoryImpl;
 
+import java.util.List;
+
 public class MainOrm {
 
     public static void main(String[] args) {
@@ -18,10 +20,13 @@ public class MainOrm {
 
         NhanVien nhanVien = new NhanVien();
         nhanVien.setMaNv("123456");
-        nhanVien.setTen("sang");
+        nhanVien.setTen("sangggggggggg");
         nhanVien.setLuong(100000000);
         NhanVienRepository nhanVienRepository = new NhanVienRepositoryImpl();
-        nhanVienRepository.save(nhanVien);
+//        nhanVienRepository.save(nhanVien);
+        nhanVienRepository.update("123456", nhanVien);
+//        List<NhanVien> nhanVien1 = nhanVienRepository.findAll();
+//        nhanVien1.forEach(System.out::println);
 
 
     }
