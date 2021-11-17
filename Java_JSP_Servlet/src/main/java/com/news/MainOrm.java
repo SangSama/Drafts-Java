@@ -24,9 +24,9 @@ public class MainOrm {
         nhanVien.setLuong(100000000);
         NhanVienRepository nhanVienRepository = new NhanVienRepositoryImpl();
 //        nhanVienRepository.save(nhanVien);
-        nhanVienRepository.update("123456", nhanVien);
-//        List<NhanVien> nhanVien1 = nhanVienRepository.findAll();
-//        nhanVien1.forEach(System.out::println);
+//        nhanVienRepository.update("123456", nhanVien);
+        List<NhanVien> nhanVien1 = nhanVienRepository.findAll();
+        nhanVien1.forEach(System.out::println);
 
 
     }

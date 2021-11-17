@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.Optional;
 
 public interface JpaRepository<T, ID extends Serializable> {
+    // Repository Pattern
+
     void save(T t);
 
     void update(ID id, T t);
@@ -21,4 +23,8 @@ public interface JpaRepository<T, ID extends Serializable> {
     List<T> findAll();
 
     long count();
+
+    boolean delete(ID id);
+
+    boolean deleteAll(List<ID> ids);
 }
