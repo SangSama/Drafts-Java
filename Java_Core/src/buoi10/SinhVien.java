@@ -4,6 +4,8 @@ public class SinhVien {
     public static String schoolName = "Đại học";
     private String name;
     private int age;
+    /*test git*/
+    private int address;
 
     // final: sinh ra để khai báo một hằng số, muốn thay đổi cũng không được
     private static final Double PI = 3.14;
