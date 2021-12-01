@@ -1,9 +1,6 @@
 # Drafts-Java
   Come on!
-  Cố gắng kiếm tiền nào <3
-
   Start learning Java from zero to good application!!!
-  #ssm - học phí: 7tr200 :3
 
 Phần 1: Kỹ thuật lập trình cơ bản (hình thành tư duy )
   - Các kiểu dữ liệu trong java 
