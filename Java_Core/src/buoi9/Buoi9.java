@@ -38,7 +38,7 @@ public class Buoi9 {
     * => false safe : không an toàn
     *   StringBuffer s1 = new StringBuffer();
     * // đảm bảo trong tại 1 thời điểm chỉ cho phép duy nhất 1 thằng thêm vào vị trí đó, nó phải check, block lại vị trí đấy
-    * => false fast
+    * => false fast : không nhanh
     *
     * */
 

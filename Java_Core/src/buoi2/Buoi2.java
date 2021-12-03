@@ -64,7 +64,7 @@ public class Buoi2 {
     *   System.out.println(a);  // a nhận => a=6
     * || (mệnh đề dài đuôi): phép (A hoặc B) => chỉ sai khi mệnh đề A và B đều sai.
     * | (mệnh đề ngắn đuôi): phép (A hoặc B) => chỉ sai khi mệnh đề A và B đều sai.
-    * ==> khác nhau. với A || B, A đúng thì không xét B nữa. còn A & B, A đúng vẫn xét B.
+    * ==> khác nhau. với A || B, A đúng thì không xét B nữa. còn A | B, A đúng vẫn xét B.
     * VD:
     *   int a=5, b=10;
     *   if ( 1>0 || a++<4 ) {

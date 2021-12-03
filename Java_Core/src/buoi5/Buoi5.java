@@ -8,7 +8,7 @@ public class Buoi5 {
     * ***CONTENT***
     *
     * FUNCTION:
-    * => code mọi thứ trong hàm main sẽ khiến hàm main phức tạp không tại sử dụng code => cần chia hàm
+    * => code mọi thứ trong hàm main sẽ khiến hàm main phức tạp tại không sử dụng code => cần chia hàm
     * => giúp cho chúng ta tái sử dụng lại các đoạn code lặp
     * => cách khai báo hàm: public static returnType functionName(Args )
     * - functionName : quy định như khi đặt tên biến
