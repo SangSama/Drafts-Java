@@ -347,24 +347,24 @@ private     v                   x                                   x           
 
         // bài 8:
         // CompareToMethod
-//        String str1 = "abc ";
-//        String str2 = "abcd";
+        String str1 = "abc";
+        String str2 = "abcdefg";
         // sp = 32 (hệ 10)
         // d == 100 (hệ 10)
         // => sp - d = - 68 và ngược lại
-//        System.out.println(compareToMethod(str1, str2));
-//        System.out.println(str1.compareTo(str2));
-//        System.out.println(compareToMethod(str2, str1));
-//        System.out.println(str2.compareTo(str1));
-        ManageCD manageCD = new ManageCD(3);
-        CD cd1 = new CD(1, "album", "Hai Bang", 15, 32.000);
-        manageCD.addCD(cd1);
-        CD cd2 = new CD(2, "album 123", "Hai Bang", 16, 28.000);
-        manageCD.addCD(cd2);
-        CD cd3 = new CD(3, "album 67893", "Hai Bang", 13, 30.000);
-        boolean check = manageCD.addCD(cd3);
-        System.out.println(check);
-        manageCD.sortByTuaCD();
-        manageCD.output();
+        System.out.println(compareToMethod(str1, str2));
+        System.out.println(str1.compareTo(str2));
+        System.out.println(compareToMethod(str2, str1));
+        System.out.println(str2.compareTo(str1));
+//        ManageCD manageCD = new ManageCD(3);
+//        CD cd1 = new CD(1, "album", "Hai Bang", 15, 32.000);
+//        manageCD.addCD(cd1);
+//        CD cd2 = new CD(2, "album 123", "Hai Bang", 16, 28.000);
+//        manageCD.addCD(cd2);
+//        CD cd3 = new CD(3, "album 67893", "Hai Bang", 13, 30.000);
+//        boolean check = manageCD.addCD(cd3);
+//        System.out.println(check);
+//        manageCD.sortByTuaCD();
+//        manageCD.output();
     }
 }
