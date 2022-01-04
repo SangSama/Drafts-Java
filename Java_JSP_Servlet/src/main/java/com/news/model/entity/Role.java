@@ -1,7 +1,8 @@
 package com.news.model.entity;
 
-import com.test.orm.annotation.Entity;
-import com.test.orm.annotation.Id;
+import com.news.orm.annotation.Column;
+import com.news.orm.annotation.Entity;
+import com.news.orm.annotation.Id;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,5 +12,6 @@ import lombok.Setter;
 public class Role {
     @Id
     private long id;
+    @Column
     private String name;
 }

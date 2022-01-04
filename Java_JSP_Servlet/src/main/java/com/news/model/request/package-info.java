@@ -1,0 +1,1 @@
+package com.news.model.request;
